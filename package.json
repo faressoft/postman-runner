@@ -1,0 +1,53 @@
+{
+  "name": "postman-runner",
+  "version": "0.1.0",
+  "description": "CLI productivity dev tool to run postman collections interactively",
+  "main": "bin/app.js",
+  "author": "Mohammad Fares <faressoft.com@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "postman": "bin/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faressoft/postman-runner.git"
+  },
+  "keywords": [
+    "postman",
+    "runner",
+    "newman",
+    "collection",
+    "curl",
+    "request",
+    "debug",
+    "api",
+    "cli",
+    "terminal",
+    "tool",
+    "dev",
+    "insomnia",
+    "postwomen"
+  ],
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "cli-highlight": "^2.1.4",
+    "editor": "^1.0.0",
+    "fuzzy": "^0.1.3",
+    "glob": "^7.1.6",
+    "homeconfjs": "^0.1.2",
+    "inquirer": "^6.5.2",
+    "inquirer-autocomplete-prompt": "^1.0.2",
+    "inquirer-checkbox-plus-prompt": "^1.0.1",
+    "is-json": "^2.0.1",
+    "lodash": "^4.17.15",
+    "newman": "^4.6.0",
+    "promise-fs": "^2.1.1",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8",
+    "tmp-promise": "^2.0.2"
+  }
+}
