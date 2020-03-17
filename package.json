@@ -1,6 +1,6 @@
 {
   "name": "postman-runner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI productivity dev tool to run postman collections interactively",
   "main": "bin/app.js",
   "author": "Mohammad Fares <faressoft.com@gmail.com>",
