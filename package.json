@@ -48,6 +48,7 @@
     "promise-fs": "^2.1.1",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.8",
-    "tmp-promise": "^2.0.2"
+    "tmp-promise": "^2.0.2",
+    "update-notifier": "^4.1.0"
   }
 }

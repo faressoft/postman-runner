@@ -10,9 +10,12 @@ const getRequests = require('../lib/get-requests');
 const loader = require('../lib/loader');
 const select = require('../lib/select');
 const run = require('../lib/run');
+const updateNotifier = require('update-notifier');
+const pkg = require('../package.json');
 const homeConf = new HomeConf(path.resolve(__dirname, '../default.json'));
 
 global.config = homeConf.config;
+updateNotifier({ pkg }).notify();
 
 if (!config.dir) {
   console.error(
