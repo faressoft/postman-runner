@@ -61,7 +61,7 @@ export EDITOR="code -w"
 
 ### How to edit in nano
 
-The tool opens the default editor that is specified by the environment variable `$EDITOR`. First make sure you have the `code` command installed, check [launching-from-the-command-line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) for more details. To change the default editor add the following line into your `.bash_profile` for `bash` or `.zshrc` if you use `zsh`
+The tool opens the default editor that is specified by the environment variable `$EDITOR`. To change the default editor add the following line into your `.bash_profile` for `bash` or `.zshrc` if you use `zsh`
 
 ```bash
 export EDITOR="nano"
