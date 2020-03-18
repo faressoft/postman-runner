@@ -47,16 +47,24 @@ npm install postman-runner -g
 postman
 ```
 
-When you run the app for the first time you will be asked to update its configuration file to specify the path where you store your postman collections (`*.postman_collection.json`) and environments (`*.postman_environment.json`) files in.
+When you run the tool for the first time you will be asked to update its configuration file to specify the path where you store your postman collections (`*.postman_collection.json`) and environments (`*.postman_environment.json`) files in.
 
 # FAQ
 
-### How to edit body and querystring in vscode
+### How to edit in vscode
 
-The app opens the default editor that is specified by the environment variable `$EDITOR`. First make sure you have the `code` command, check [launching-from-the-command-line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) for more details. To change the default editor add following line into your `.bash_profile` for `bash` or `.zshrc` if you use `zsh`
+The tool opens the default editor that is specified by the environment variable `$EDITOR`. First make sure you have the `code` command installed, check [launching-from-the-command-line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) for more details. To change the default editor add the following line into your `.bash_profile` for `bash` or `.zshrc` if you use `zsh`
 
 ```bash
 export EDITOR="code -w"
+```
+
+### How to edit in nano
+
+The tool opens the default editor that is specified by the environment variable `$EDITOR`. First make sure you have the `code` command installed, check [launching-from-the-command-line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) for more details. To change the default editor add the following line into your `.bash_profile` for `bash` or `.zshrc` if you use `zsh`
+
+```bash
+export EDITOR="nano"
 ```
 
 # License
